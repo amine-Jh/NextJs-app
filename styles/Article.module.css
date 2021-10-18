@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    border: darkblue 1px solid;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 4px;
+    
+}
+.container:hover{
+    
+    background: rgb(111, 126, 211);
+    color: black !important;
+}
+
+.heading{
+    font-size: 1.2em;
+    color: darkblue;
+}
+.parg{
+    font-size: 0.5;
+    color: gray;
+    text-align: justify;
+}

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import text from 'next/router'
+import ArticleItem from '../components/ArticleItem'
 import styles from '../styles/Layout.module.css'
 
 export default function Home({articles}) {
@@ -13,10 +14,10 @@ export default function Home({articles}) {
       </Head>
 
       <h1> Hello next js</h1>
-      {articles.map(article=>  <> <h1> {article.title} </h1> 
-        <p>  {article.body} </p>
-        
-       </> )}
+      {articles.map(article=> <> <ArticleItem article={article} />
+            
+       </>
+      )}
     </div>
   )
 }
