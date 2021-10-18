@@ -1,0 +1,11 @@
+.h1{
+    color: blueviolet;
+    font-size: 2 em;
+    text-align: center;
+}
+
+.descp{
+    font-size: 1.2 em;
+    color: dimgray;
+    text-align: center;
+}
